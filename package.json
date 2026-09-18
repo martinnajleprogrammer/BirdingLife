@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "16.3.5",
+    "next-intl": "^4.14.5",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -22,5 +23,8 @@
     "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "optionalDependencies": {
+    "lightningcss-darwin-arm64": "^1.33.0"
   }
 }

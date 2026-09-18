@@ -1,20 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #faf7f0;
+  --foreground: #2e2c24;
+  --primary: #5f7a52;
+  --accent-terracotta: #c1613a;
+  --accent-gold: #c79a3d;
+  --accent-sky: #5c7c99;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-accent-terracotta: var(--accent-terracotta);
+  --color-accent-gold: var(--accent-gold);
+  --color-accent-sky: var(--accent-sky);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
 }
 
 body {
