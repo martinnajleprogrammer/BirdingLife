@@ -1,0 +1,9 @@
+export default function Footer() {
+  return (
+    <footer className="border-t border-zinc-200 py-8 text-center text-sm text-zinc-500 dark:border-zinc-800 dark:text-zinc-500">
+      <p>
+        Pampas Birding Guide &mdash; birdwatching around Tandil and the Buenos Aires pampas, Argentina.
+      </p>
+    </footer>
+  );
+}
