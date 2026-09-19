@@ -2,5 +2,23 @@
   "HomePage": {
     "title": "Birding the Argentine pampas, one sighting at a time",
     "description": "A field guide and learning journal for the colorful bird species of Tandil and the Buenos Aires pampa grassland — built for visiting birders, and for anyone curious about the region's wildlife."
+  },
+  "Sections": {
+    "species": {
+      "title": "Species",
+      "description": "A growing, photo-led checklist of colorful birds found in the Tandil sierra and the surrounding pampa grassland."
+    },
+    "tripPlanning": {
+      "title": "Trip Planning",
+      "description": "Practical notes for birders visiting the Buenos Aires pampas: when to go, where to look, what to bring."
+    },
+    "journal": {
+      "title": "Journal",
+      "description": "A first-person learning log of birding trips, sightings, and mistakes — written as the knowledge builds, not pretending it's already there."
+    },
+    "about": {
+      "title": "About",
+      "description": "Who's behind this site, and the sources it leans on: Aves Argentinas, eBird, and the Cornell Lab."
+    }
   }
 }

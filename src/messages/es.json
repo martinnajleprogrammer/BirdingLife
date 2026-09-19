@@ -1,6 +1,24 @@
 {
   "HomePage": {
-    "title": "Observar aves en la pampa argentina, avistamiento a avistamiento",
+    "title": "Observar aves en la Pampa Argentina, avistamiento de a uno por vez",
     "description": "Una guía de campo y diario de aprendizaje sobre las coloridas especies de aves de Tandil y la pampa bonaerense — pensada para birders que visitan la zona, y para cualquiera con curiosidad por la fauna de la región."
+  },
+  "Sections": {
+    "species": {
+      "title": "Especies",
+      "description": "Un checklist fotográfico, en crecimiento, de aves coloridas de la sierra de Tandil y la pampa circundante."
+    },
+    "tripPlanning": {
+      "title": "Planificá tu viaje",
+      "description": "Notas prácticas para birders que visitan la pampa bonaerense: cuándo ir, dónde buscar, qué llevar."
+    },
+    "journal": {
+      "title": "Diario",
+      "description": "Un diario en primera persona de salidas de observación, avistamientos y errores — escrito a medida que se aprende, sin simular saber más de lo que se sabe."
+    },
+    "about": {
+      "title": "Acerca de",
+      "description": "Quién está detrás de este sitio, y en qué fuentes se apoya: Aves Argentinas, eBird y el Cornell Lab."
+    }
   }
 }
