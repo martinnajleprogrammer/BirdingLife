@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/navigation";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
@@ -11,6 +12,9 @@ const NAV_LINKS = [
 export default function Header() {
   return (
     <header className="border-b border-primary/15">
+      <div className="mx-auto flex max-w-5xl items-center justify-end px-6 py-2">
+        <LanguageSwitcher />
+      </div>
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link href="/" className="font-display text-xl text-primary">
           Pampas Birding Guide
