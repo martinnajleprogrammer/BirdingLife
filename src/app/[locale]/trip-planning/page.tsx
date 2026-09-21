@@ -1,3 +1,5 @@
+import RecentSightings from "@/components/RecentSightings";
+
 export const metadata = { title: "Trip Planning | Pampas Birding Guide" };
 
 export default function TripPlanningPage() {
@@ -8,6 +10,7 @@ export default function TripPlanningPage() {
         Coming soon: practical notes for birders visiting the Buenos Aires pampas &mdash; best
         time of year, key sites around Tandil, and what to pack.
       </p>
+      <RecentSightings />
     </div>
   );
 }
