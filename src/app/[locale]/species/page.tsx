@@ -1,4 +1,6 @@
+import Filter from '../../../components/Filter'
 export const metadata = { title: "Species | Pampas Birding Guide" };
+import { species } from '../../../data/species';
 
 export default function SpeciesPage() {
   return (
@@ -8,6 +10,7 @@ export default function SpeciesPage() {
         Coming soon: a photo-led checklist of colorful bird species found around Tandil and the
         pampa grassland, filterable by habitat and season.
       </p>
+      <Filter items={species} />
     </div>
   );
 }
