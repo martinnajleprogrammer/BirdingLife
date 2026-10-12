@@ -12,7 +12,11 @@ export type Sighting = {
 };
 
 const RecentSightings = () => {
-  const { data, error, loading } = useFetch<{ data: Sighting[] }>('/api/recent-sightings')
+
+  const { data, error, loading } = useFetch<{ data: Sighting[] }>(
+    process.env.NEXT_PUBLIC_RECENT_SIGHTINGS_API_URL ?? ''
+  )
+
   if (loading) {
     return <p>Loading watched species...</p>;
   }
